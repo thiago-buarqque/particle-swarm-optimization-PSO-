@@ -63,7 +63,7 @@ if __name__ == '__main__':
     positions_bounds = [[-5.0, 5.0], [-5.0, 5.0]]
     velocities_bounds = [[-2.0, 2.0], [-2.0, 2.0]]
 
-    pso = PSO(use_weight_decay=True, swarm_size=20,
+    pso = PSO.PSO(use_weight_decay=True, swarm_size=20,
               positions_bounds=positions_bounds,
               velocities_bounds=velocities_bounds,
               fitness_function=fitness_function)
